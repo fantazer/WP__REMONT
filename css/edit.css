@@ -1,0 +1,36 @@
+.templ-header,
+.templ-footer
+{
+	background: #ededed;
+	text-align: center;
+	padding: 30px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.templ-content{
+	margin: 50px 0;
+}
+
+.templ-menu{
+	background: #ededed;
+	padding: 40px 15px;
+	margin-top: 20px;
+}
+
+.header-nav__el{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.header-nav__el-sub-el{
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.templ-cont{
+	margin-bottom: 40px;
+}
