@@ -90,7 +90,7 @@
 				  					foreach( $myposts as $post ){ 
 				  						setup_postdata($post);
 				  						?>
-				  						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+				  						<li><a href="<?php the_permalink(); ?>"><?=get_field($needField);?></a></li>
 				  						<?
 				  					}
 				  				  }
@@ -107,7 +107,7 @@
 						  					query_posts($args);
 						  					while (have_posts()) : the_post(); 
 						  							?>
-						  							<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						  							<li><a href="<?php the_permalink(); ?>"><?=get_field($needField);?></a></li>
 						  							<?
 						  				  endwhile; 
 						  				  wp_reset_query();
