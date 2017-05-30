@@ -8,9 +8,9 @@
 			<div class="bread-crambs-wrap">
 					<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(); ?>
 			</div>
-			<?php if (get_field('title')=='show'): ?>
+			<?php //if (get_field('title')=='show'): ?>
 				<h1 ><?=get_the_title();?></h1>
-			<?php endif ?>
+			<?php //endif ?>
 			<?=the_content();?>
 			
 			<!-- ===== more-links ===== -->
