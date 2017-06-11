@@ -9,7 +9,7 @@
 		<link defer type="image/x-icon" rel="icon" href="favicon-M.ico">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/vendor.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/edit.css" />
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style-edit.css" />
 		<link rel="stylesheet" href="http://webfonts.ru/import/ristrettopro.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" />
 		<?php wp_enqueue_script('jquery'); ?>

@@ -1,1 +1,10 @@
 /* ======= PLS add your style her =======*/
+table{
+  border-color:#ddd!important;
+  border-collapse:collapse!important;
+}
+
+.content-item li a {
+  color: #000;
+  text-decoration: underline;
+}

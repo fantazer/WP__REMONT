@@ -34,8 +34,8 @@
     <div class="get-news">
         <?
         $args = array(
-            'orderby' => 'date',
-            'order' => 'ASC',
+            'orderby' => 'id',
+            'order' => 'DESC',
             'cat' => 9,
             'posts_per_page' => 5
         );
